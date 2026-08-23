@@ -151,4 +151,3 @@ for(let i=0;i<arr.length;i++){
     console.log(arr[i] + typeof arr[i] +arr[i]==15+ arr[i]===15 );
 }
 
-//25
