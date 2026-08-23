@@ -112,7 +112,7 @@ for(let i=0; i<mixedbag.length;i++){
 let names=prompt("enter your name");
 let orderprice=prompt("what is the price of the order?");
 let confirmorder=confirm("confirm payment");
-letorderprice2=Number(orderprice)
+let orderprice2=Number(orderprice)
 console.log(`name:${names} price:${orderprice2} confirmed: ${confirmorder}`);
 alert(`name:${names} price:${orderprice2} confirmed: ${confirmorder}`);
 document.getElementById("result").innerText=`name:${names} price:${orderprice2} confirmed: ${confirmorder}`;
@@ -148,6 +148,6 @@ var e1=[15];
 var f1 ={value:15};
 let arr=[a1,b1,c1,d1,e1,f1];
 for(let i=0;i<arr.length;i++){
-    console.log(arr[i] + typeof arr[i] +arr[i]==15+ arr[i]===15 );
+    console.log(arr[i] , typeof arr[i] ,arr[i]==15, arr[i]===15 );
 }
 
